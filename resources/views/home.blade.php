@@ -14,7 +14,7 @@
         </div>
         <div class="section">
             <div class="flex justify-center">
-                @include('partials.trials')
+                @include('partials.duties')
             </div>
         </div>
         <div class="section">
@@ -33,7 +33,7 @@
             scrollHorizontally: true,
             navigation: true,
             navigationPosition: 'right',
-            navigationTooltips: ['Home', 'Character Info', 'Trials', 'Jobs'],
+            navigationTooltips: ['Home', 'Character Info', 'Duties', 'Jobs'],
             showActiveTooltip: true,
         });
     });

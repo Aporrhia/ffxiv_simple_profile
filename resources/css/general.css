@@ -16,9 +16,11 @@ body {
 }
 
 .hover-image {
+    position: absolute;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     pointer-events: none;
+    z-index: 10;
 }
 
 .hover-image.show {
@@ -27,13 +29,19 @@ body {
 
 .hover-image.below {
     top: 100%;
+    left: 0;
     bottom: auto;
     margin-top: 0.5rem;
 }
 
 .hover-image.above {
     bottom: 100%;
+    left: 0;
     margin-bottom: 0.5rem;
+}
+
+.relative {
+    position: relative;
 }
 
 .transition-opacity {
