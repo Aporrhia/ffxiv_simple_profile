@@ -33,7 +33,6 @@
             scrollHorizontally: true,
             navigation: true,
             navigationPosition: 'right',
-            navigationTooltips: ['Home', 'Character Info', 'Duties', 'Jobs'],
             showActiveTooltip: true,
         });
     });
